@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{16F47A80-38E4-4885-A788-DEE61FDDC51D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DropBox</RootNamespace>
+    <AssemblyName>DropBox</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>게시\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ImageListView, Version=11.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ImageListView.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\packages\DotNetZip.1.9.8\lib\net20\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Nemiro.OAuth, Version=1.10.45.895, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nemiro.OAuth.1.10\lib\net45\Nemiro.OAuth.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nemiro.OAuth.LoginForms, Version=1.4.45.1485, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nemiro.OAuth.LoginForms.1.4\lib\net45\Nemiro.OAuth.LoginForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nevron.Chart, Version=16.1.5.12, Culture=neutral, PublicKeyToken=2961c51bb98125d2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Nevron Software\Nevron .NET Vision 2015.1 for VS2013\Bin\Nevron.Chart.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Chart.WinForm, Version=16.1.5.12, Culture=neutral, PublicKeyToken=c9bd8998e981e4ee, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Nevron Software\Nevron .NET Vision 2015.1 for VS2013\Bin\Nevron.Chart.WinForm.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Presentation, Version=16.1.5.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Nevron Software\Nevron .NET Vision 2015.1 for VS2013\Bin\Nevron.Presentation.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.System, Version=16.1.5.12, Culture=neutral, PublicKeyToken=6a987feae5e496fd, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Nevron Software\Nevron .NET Vision 2015.1 for VS2013\Bin\Nevron.System.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnalysisData.cs" />
+    <Compile Include="CreateNewProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateNewProject.Designer.cs">
+      <DependentUpon>CreateNewProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete.Designer.cs">
+      <DependentUpon>Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dots.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dots.Designer.cs">
+      <DependentUpon>Dots.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileDownloader.cs" />
+    <Compile Include="Graph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Graph.Designer.cs">
+      <DependentUpon>Graph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LinkData.cs" />
+    <Compile Include="EditProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditProject.Designer.cs">
+      <DependentUpon>EditProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_Image.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_Image.Designer.cs">
+      <DependentUpon>Edit_Image.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyRenderer.cs" />
+    <Compile Include="Partition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Partition.Designer.cs">
+      <DependentUpon>Partition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ResultData.cs" />
+    <Compile Include="Route.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Route.Designer.cs">
+      <DependentUpon>Route.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scenario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scenario.Designer.cs">
+      <DependentUpon>Scenario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScenarioData.cs" />
+    <Compile Include="Survey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Survey.Designer.cs">
+      <DependentUpon>Survey.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CreateNewProject.resx">
+      <DependentUpon>CreateNewProject.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete.resx">
+      <DependentUpon>Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dots.resx">
+      <DependentUpon>Dots.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditProject.resx">
+      <DependentUpon>EditProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_Image.resx">
+      <DependentUpon>Edit_Image.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graph.resx">
+      <DependentUpon>Graph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Partition.resx">
+      <DependentUpon>Partition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Route.resx">
+      <DependentUpon>Route.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scenario.resx">
+      <DependentUpon>Scenario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Survey.resx">
+      <DependentUpon>Survey.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5%28x86 및 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\DoNotDelete.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
