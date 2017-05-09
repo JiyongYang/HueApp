@@ -245,7 +245,20 @@
     <EmbeddedResource Include="Resources\DoNotDelete.bmp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\8_1_dot.png" />
+    <None Include="Resources\8_1_dot_off.png" />
+    <None Include="Resources\8_1_graph.png" />
+    <None Include="Resources\8_1_graph_off.png" />
+    <None Include="Resources\8_1_part.png" />
+    <None Include="Resources\8_1_part_off.png" />
+    <None Include="Resources\8_1_route.png" />
+    <None Include="Resources\8_1_route_off.png" />
+    <None Include="Resources\8_1_survey.png" />
+    <None Include="Resources\8_1_survey_off.png" />
+    <None Include="Resources\10_link_pop.png" />
+    <None Include="Resources\4_delete.png" />
     <Content Include="Resources\arrow.png" />
+    <None Include="Resources\_8_1_survey_off.bmp" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />

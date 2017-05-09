@@ -253,4 +253,40 @@
   <data name="swipe_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\swipe_up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="_10_link_pop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10_link_pop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8_1_dot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8_1_dot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8_1_dot_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8_1_dot_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8_1_graph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8_1_graph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8_1_graph_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8_1_graph_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8_1_part" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8_1_part.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8_1_part_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8_1_part_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8_1_route" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8_1_route.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8_1_route_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8_1_route_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8_1_survey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8_1_survey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8_1_survey_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8_1_survey_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

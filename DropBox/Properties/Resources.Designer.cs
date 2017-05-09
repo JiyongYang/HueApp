@@ -233,6 +233,16 @@ namespace DropBox.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap _10_link_pop {
+            get {
+                object obj = ResourceManager.GetObject("_10_link_pop", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap _2_bg_50_50 {
             get {
                 object obj = ResourceManager.GetObject("_2_bg_50_50", resourceCulture);
@@ -273,6 +283,16 @@ namespace DropBox.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap _4_delete {
+            get {
+                object obj = ResourceManager.GetObject("_4_delete", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap _5_add {
             get {
                 object obj = ResourceManager.GetObject("_5_add", resourceCulture);
@@ -296,6 +316,106 @@ namespace DropBox.Properties {
         internal static System.Drawing.Bitmap _5_Reset {
             get {
                 object obj = ResourceManager.GetObject("_5_Reset", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8_1_dot {
+            get {
+                object obj = ResourceManager.GetObject("_8_1_dot", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8_1_dot_off {
+            get {
+                object obj = ResourceManager.GetObject("_8_1_dot_off", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8_1_graph {
+            get {
+                object obj = ResourceManager.GetObject("_8_1_graph", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8_1_graph_off {
+            get {
+                object obj = ResourceManager.GetObject("_8_1_graph_off", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8_1_part {
+            get {
+                object obj = ResourceManager.GetObject("_8_1_part", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8_1_part_off {
+            get {
+                object obj = ResourceManager.GetObject("_8_1_part_off", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8_1_route {
+            get {
+                object obj = ResourceManager.GetObject("_8_1_route", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8_1_route_off {
+            get {
+                object obj = ResourceManager.GetObject("_8_1_route_off", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8_1_survey {
+            get {
+                object obj = ResourceManager.GetObject("_8_1_survey", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8_1_survey_off {
+            get {
+                object obj = ResourceManager.GetObject("_8_1_survey_off", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
